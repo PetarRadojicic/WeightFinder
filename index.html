@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>WeightFinder</title>
+</head>
+<body class="bg-dark" id="body">
+    <nav class="navbar bg-dark" id="nav">
+        <div class="container">
+            <span class="navbar-brand text-white" id="naslov">WeightFinder</span>
+                <div class="div d-flex align-items-end">
+                    <div class="btn-group p-1">
+                        <input type="radio" class="btn-check" name="btnradio1" id="btnradio1" checked>
+                        <label class="btn btn-outline-light menu-dugme" for="btnradio1">Dark</label>
+                      
+                        <input type="radio" class="btn-check" name="btnradio1" id="btnradio2" >
+                        <label class="btn btn-outline-light menu-dugme2" for="btnradio2">Light</label>
+                    </div>
+                </div>
+        </div>
+    </nav>
+    <div class="containter d-flex justify-content-center mt-5">
+          <div class="mb-3">
+            <label id="search" for="Unos" class="form-label text-white">Unesi Ime</label>
+            <div class="input-group">
+                <textarea style="width: 500px;" class="form-control" id="Unos"></textarea>
+                <button class="btn btn-light" type="submit" id="Pretrazi">Pretrazi</button>
+            </div>
+            <div id="import"></div>
+          </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
