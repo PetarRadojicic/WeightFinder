@@ -2,9 +2,9 @@ function search() {
   return new Promise((resolve, reject) => {
     const odgovor = document.querySelector("#Unos");
     /*https://developers.google.com/custom-search/v1/introduction from this link you get api key*/
-    const API_KEY = "";
+    const API_KEY = "AIzaSyCHJ2QMow_eYalpMCo5i20-kJUL63iTHZQ";
     /*https://programmablesearchengine.google.com/controlpanel/all from this link make a project and get Search engine ID*/
-    const CX = "";
+   const CX = "72662a381d68d4dfb";
     const query = `weight of ${odgovor.value} in kg`;
 
     fetch(
