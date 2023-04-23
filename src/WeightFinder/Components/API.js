@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import styled from "styled-components";
 import style from "./API.module.css";
 
 const API = (props) => {
