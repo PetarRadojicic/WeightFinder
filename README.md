@@ -1,3 +1,3 @@
 # WeightFinder
-React app that gives weight of any inputtet thing
-test site:https://weightfinder.oa.r.appspot.com/
+React app that gives weight of any inputted thing
+hosted on https://weightfinder.oa.r.appspot.com/
